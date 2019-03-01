@@ -1,0 +1,83 @@
+
+%credential-shared {
+    padding-left: 10px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.row {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.login-outline {
+    vertical-align: middle;
+    margin-top:7%;
+    img {
+        margin-left: 20%;
+    }
+    h1 {
+        color:#2e384d;
+        margin-top:8%;
+        text-align: center;
+    }
+    h5 {
+        color: #8798ad;
+        text-align: center;
+    }
+    .form-group {
+        width: 70%;
+        margin: auto;
+        label {
+            text-transform: uppercase;
+            margin-top: 5%;
+            color:#8798ad;
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+        .form-control {
+            font-size: 20px;
+            padding-top:25px;
+            padding-bottom: 25px;
+            padding-left: 20px;
+            margin-left: 7%;
+            width: 86%;
+            background-color: #f9faff;
+            border: 0;
+        }
+        .sign-in-btn {
+            width: 100%;
+            border-radius: 5px;
+            color: #f3f3f3;
+            background-color: #2e5bff;
+            float:center;
+            width: 86%;
+            margin-left:7%;
+            @extend %credential-shared;
+        }
+        small {
+            margin-top:2%;
+            color:#8798ad;
+        }
+        .usage-terms {
+            margin-top:5%;
+        }
+        h6 {
+            color:#8798ad;
+            text-align: center;
+        }
+    }
+}
+.logo-screen {
+    margin-left:0;
+    margin-right: 0;
+    position: relative;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.sign-in-btn {
+    border: 0;
+    margin-top:4%;
+    margin-bottom: 4%;
+}

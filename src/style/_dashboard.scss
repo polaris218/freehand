@@ -1,0 +1,38 @@
+$share-color: #f2f6fc;
+%share-badge {
+    border-radius: 50%;
+    line-height: 10px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top:0;
+    right:2px;
+}
+.dashboard-bg {
+    background-color: $share-color;
+    padding-bottom:100%;
+    border-top: 1px solid darken($share-color, 10%);
+    font-family: 'Roboto';
+    .btn-plus {
+        background-color: #2e5bff;
+        border:0;
+        color:#f2f2f2;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 0;
+        float: right;
+        font-size: 20px;
+        box-shadow: 0px 8px 15px rgba(27, 83, 204, 0.753);
+    }
+}
+
+.nav-item {
+    position: relative;
+    i {
+        color: #bfc5d2;
+    }
+}
+.badge-notify {
+    @extend %share-badge;
+}

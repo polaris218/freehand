@@ -1,0 +1,52 @@
+$font : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$save-draft-color: #fe0163;
+
+%padding-shared {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-save-draft {
+    @extend %padding-shared;
+    background-color: $save-draft-color;
+    color: #f2f2f2;
+    border-radius: 20px;
+    text-transform: uppercase;
+    // box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.822);
+}
+.func-icons {
+    button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border:1px solid #f2f2f2;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    }
+    button:active{
+        background-color: #444c5f;
+        color:white;
+    }
+}
+.function-icons {
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+.func-icons, .function-icons {
+    i {
+        color:#596377;
+    }
+}
+
+.btn-share {
+    @extend %padding-shared;
+    background-color: #10b683;
+    border-radius: 20px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    // box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.048);
+}
